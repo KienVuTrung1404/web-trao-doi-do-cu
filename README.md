@@ -108,7 +108,7 @@ erDiagram
 ### Quy trình đóng gói và Chạy ứng dụng
 1. Đóng gói dự án qua Maven: `mvn clean package` (sinh tệp `target/OldThingsExchange.war`).
 2. Triển khai tệp `.war` lên Tomcat Webapps hoặc chạy thông qua trình khởi chạy Tomcat Server trong IDE.
-3. Điểm truy cập mặc định: `http://localhost:8080/OldThingsExchange/` (hoặc `http://localhost:8080/`).
+3. Điểm truy cập: `http://exchangeptit.id.vn` (môi trường triển khai) hoặc `http://localhost:8080/OldThingsExchange/` (môi trường cục bộ).
 
 ## 8. Đánh giá An toàn thông tin & Hướng phát triển
 - **Mật mã học**: Chuyển đổi lưu trữ mật khẩu từ văn bản thuần sang băm có muối (Salted Hashing) với BCrypt hoặc Argon2.
